@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>From cu</title>
+<img style="display:block;width:100%;" src="style/Yosemite-Color-Block.png" />
+<link rel="stylesheet" type="text/css" href="style/style.css">
+ 
+<script type="text/javascript" src="style/jquery.min.js"></script>
+<script type="text/javascript" src="style/vector.js"></script>
+<script >
+	function myfunction()
+ 
+	{
+	
+			// ⽅法⼀
+			var item = null;
+	var obj = document.getElementsByName("cu")
+	for (var i = 0; i < obj.length; i++) { //遍历Radio 
+      if (obj[i].checked) {
+           item = obj[i].value;                   
+      	}
+	}
+	if(item == '1'){
+		{window.location.href="page2.html";}
+	}else{
+		{window.location.href="page_bitch.html";}
+	}
+	}
+</script>
+ 
+ 
+ 
+</head>
+<body>
+
+ 
+<div id="container">
+	<div id="output">
+		<div class="containerT">
+			<h1>I swear you are the bitchest</h1>
+			<h1>You have no gift now :)</h1>
+			<br/>
+				<label><input name="cu" type="radio" value="1" id='cu' />  I'm sorry bae, I didn't mean to choose it:(</label> <br>
+				<br/>
+<label><input name="cu" type="radio" value="2" id="cu"/>  I insist my opinion.</label> <br>
+				
+<br/>
+					<button type="button" id="entry_btn" type="button" onclick="myfunction()">So?</button> 
+	
+				<div id="prompt" class="prompt"></div>
+			
+		</div>
+	</div>
+</div>
+ 
+ 
+ 
+</body>
+</html>

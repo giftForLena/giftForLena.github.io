@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>From cu</title>
+<img style="display:block;width:100%;" src="style/Yosemite-Color-Block.png" />
+<link rel="stylesheet" type="text/css" href="style/style.css">
+ 
+<script type="text/javascript" src="style/jquery.min.js"></script>
+<script type="text/javascript" src="style/vector.js"></script>
+<script >
+	function myfunction()
+ 
+	{
+	var x=document.getElementById("name").value;
+	var y=document.getElementById("entry_password").value;
+	if(x =="" || y=="")
+		{alert("wtf,I said put something in the input box (～￣(OO)￣)ブ")}
+	else  if (x =="张桐" && y=="Lena Weber")
+		{window.location.href="page2.html";}
+	else if(x =="张桐" ){alert("hmm, you mistake the first question.");}
+	else if(y == "Lena Weber"){
+		alert("My chinese name u forgot?:)")
+
+	}else{
+		alert("Come on, why both questions are wrong? You are so dumb or what?")
+	}
+}
+</script>
+ 
+ 
+ 
+</head>
+<body>
+	<audio autoplay="autoplay" loop="loop" preload="auto"
+
+            	src="style/莫文蔚 - 呼吸有害.mp3"></audio>
+ 
+<div id="container">
+	<div id="output">
+		<div class="containerT">
+			<h1>Hello, Lena. Before you receive the content, You have few things to do:</h1>
+			<h1>Write something in the input box, or choose the answer you think is correct.</h1>
+			<h1>Ok no more shits, first, Who is the bitchest here？</h1>
+			<form class="form" id="entry_form">
+				<input type="text" placeholder="put something here yk.
+" id="entry_password">
+<h1>And what is my chinese name? :)</h1>
+				<input type="text" placeholder="put something here yk.
+							" id="name">
+				
+				
+					<button type="button" id="entry_btn" type="button" onclick="myfunction()">I admit she is the bitchest and I'm curious what's the next.</button> 
+	
+				<div id="prompt" class="prompt"></div>
+			</form>
+		</div>
+	</div>
+</div>
+ 
+ 
+ 
+</body>
+</html>
